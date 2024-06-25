@@ -22,3 +22,11 @@ console.log(carObject);
 
 //Reading properties
 console.log(`El color del coche es: ${carObject.color}`);
+
+//Update properties
+carObject.combustible = 'Diesel';
+console.log(`El combustible del coche es: ${carObject.combustible}`);
+
+//Deleting properties
+delete carObject.color;
+console.log(carObject);
